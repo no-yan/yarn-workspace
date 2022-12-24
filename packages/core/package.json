@@ -4,7 +4,7 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node src/index.s"
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "utils": "workspace:^"

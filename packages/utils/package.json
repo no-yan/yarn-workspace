@@ -2,7 +2,7 @@
   "name": "utils",
   "packageManager": "yarn@3.3.1",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "types": "src/index.ts",
   "devDependencies": {
     "typescript": "^4.9.4"
