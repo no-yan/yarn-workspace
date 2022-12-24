@@ -1,15 +1,14 @@
 {
   "name": "core",
-  "packageManager": "yarn@3.3.1",
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
     "start": "node dist/index.js"
   },
-  "dependencies": {
-    "utils": "workspace:^"
-  },
   "devDependencies": {
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "utils": "*"
   }
 }
