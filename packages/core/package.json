@@ -2,8 +2,9 @@
   "name": "core",
   "packageManager": "yarn@3.3.1",
   "type": "module",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.s"
   },
   "dependencies": {
     "utils": "workspace:^"

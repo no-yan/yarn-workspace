@@ -8,5 +8,6 @@
     "forceConsistentCasingInFileNames": true
   },
   "$schema": "https://json.schemastore.org/tsconfig",
-  "include": ["packages"]
+  "references": [{ "path": "packages/core" }, { "path": "packages/utils" }],
+  "files": []
 }
