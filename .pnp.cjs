@@ -46,7 +46,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/core", {\
           "packageLocation": "./packages/core/",\
           "packageDependencies": [\
-            ["core", "workspace:packages/core"]\
+            ["core", "workspace:packages/core"],\
+            ["utils", "workspace:packages/utils"]\
           ],\
           "linkType": "SOFT"\
         }]\

@@ -7,10 +7,12 @@ __metadata:
 "core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "core@workspace:packages/core"
+  dependencies:
+    utils: "workspace:^"
   languageName: unknown
   linkType: soft
 
-"utils@workspace:packages/utils":
+"utils@workspace:^, utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "utils@workspace:packages/utils"
   languageName: unknown
