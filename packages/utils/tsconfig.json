@@ -4,5 +4,6 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "composite": true /* Enable constraints that allow a TypeScript project to be used with project references. */
-  }
+  },
+  "references": []
 }
