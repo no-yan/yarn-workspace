@@ -5,8 +5,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "tsc --build ."
+  },
   "devDependencies": {
-    "@monorepo-utils/workspaces-to-typescript-project-references": "^2.9.0",
     "typescript": "^4.9.4"
   }
 }
